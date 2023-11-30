@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <div id="widget-container">
+        
+        <div id="weather-container">
+            <p class="first-text">El resultado de mostrará aquí</p>
+            <div id="city-name">
+                <!-- <p class="name">México city</p>
+                <p>now</p> -->
+            </div>
+            <div id="show-weather">
+                <div id="temperature">
+                    <div id="image">
+                        <!-- <img src="" alt="" width="200px"> -->
+                    </div>
+                    <div id="status">
+                        <div id="currently-temperature"></div>
+                        <div id="description"></div>
+
+                    </div>
+                    
+                </div>
+                
+                
+
+
+            </div>
+
+        </div>
+        <div id="search-container">
+            <div id="title">
+                <p>Busca el clima</p>
+
+            </div>
+            <div id="form-container">
+                <form action="" id="form">
+                    <div class="group">
+                        <input type="text" name="city" id="city" class="" placeholder="Escribe tu ciudad">                        
+                    </div>
+                    <div class="group">
+                        <select name="country" id="country" class="">
+                            <option disabled selected value="">---Seleccione---</option>
+                            <option value="AR">Argentina</option>
+                            <option value="CO">Colombia</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="ES">España</option>
+                            <option value="US">Estados unidos</option>
+                            <option value="MX">México</option>
+                            <option value="PE">Perú</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Buscar" id="submit">
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
